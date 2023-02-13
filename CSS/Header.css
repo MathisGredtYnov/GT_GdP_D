@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../ASSETS/Gotham-Font/GothamMedium.ttf');
+}
+
+/* début header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham";
+    
+}
+
+.header {
+    background-color: #32373c;
+    color: #ffffff;
+    padding: 10px;
+    height: 75px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo p {
+    font-weight: 700;
+    font-size: 2.8em;
+    color: #fff;
+}
+.logo img {
+    padding-right: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.lien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_button, .menu_button + label  {
+    display: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    padding: 0px 25px;
+    display: inline;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: line-through;
+    font-size: 400;
+}
+
+.burger {
+    cursor: pointer;
+}
+/* Header End */
+
+@media screen and (max-width: 991px) {
+    /* Header */
+    .menu_button, .menu_button + label  {
+        display: block;
+    }
+    .menu_button + label {
+        cursor: pointer;
+    }
+    .menu_button + label .close {
+        display: none;
+    }
+    .menu_button + label .burger {
+        display: block;
+    }
+    .menu_button:checked + label .close {
+        display: block;
+    }
+    .menu_button:checked + label .burger {
+        display: none;
+    }
+    .menu {
+        background-color: #232429;
+        position: absolute;
+        top: 75px;
+        right: 0px;
+        border-bottom-left-radius: 10px;
+        padding: 0px 0px 10px 10px;
+        display: none;
+    }
+    .menu_button {
+        opacity: 0;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    li {
+        padding: 10px;
+        font-size: 1.5em;
+        text-align: right;
+        border-top: 1px solid #195FA5;
+    }
+    .menu_button:checked ~ .menu {
+        display: block;
+    }
+    /* Header End */
+}
