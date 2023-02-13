@@ -1,11 +1,16 @@
 @font-face {
     font-family: 'GothamBlack';
-    src: url('../assets/Gotham-Font/GothamBlack.ttf');
+    src: url('../ASSETS/Font/Gotham-Black.otf');
 }
 
 @font-face {
     font-family: 'GothamMedium';
-    src: url('../assets/Gotham-Font/GothamMedium.ttf');
+    src: url('../ASSETS/Font/Gotham-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Gotham-Black-Light";
+    src: url(../ASSETS/Font/GothamBook.ttf);
 }
 
 /* début header*/
@@ -156,8 +161,15 @@ a:hover {
 }
 
 .text{
-    font-size: 4em;
-    color: #000;
-    margin-top: 35vh;
-    font-family: 'Gotham-Black';
+    font-size: 3em;
+    color: #000000;
+    margin-top: 25vh;
+    font-family: 'Gotham-Black-Light';
+    width: 39vw;
+    margin-left: 40vh;
+    line-height: 1.3;
+}
+
+.clients{
+    margin-left: 10vh;
 }
