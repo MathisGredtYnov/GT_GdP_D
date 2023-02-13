@@ -13,17 +13,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: "GothamBlack";
+=======
+>>>>>>> d9645658e7041a9f5476ee23712ac9609c792ade
 }
 
 .header {
-    background-color: #32373c;
+    background-color: transparent;
     color: #ffffff;
     padding: 10px;
     height: 75px;
+    width: 100vw;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 .logo {
     display: flex;
@@ -32,7 +37,7 @@
 }
 .logo p {
     font-weight: 700;
-    font-size: 2.8em;
+    font-size: 1em;
     color: #fff;
 }
 .logo img {
@@ -51,6 +56,11 @@
     display: none;
 }
 
+.menu{
+    display: flex;
+    flex: end;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -61,7 +71,7 @@ ul{
 li {
     padding: 0px 25px;
     display: inline;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #ffffff;
     font-weight: 400;
     text-transform: uppercase;
