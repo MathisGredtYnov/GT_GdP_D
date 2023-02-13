@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'GothamBlack';
-    src: url('/GROUPE/ASSETS/Font/Gotham-Black.otf');
+    src: url('../ASSETS/Font/Gotham-Black.otf');
 }
 
 @font-face {
     font-family: 'GothamMedium';
-    src: url('/GROUPE/ASSETS/Gotham-Font/GothamMedium.ttf');
+    src: url('../ASSETS/Gotham-Font/GothamMedium.ttf');
 }
 
 /* début header*/
