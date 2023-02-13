@@ -1,0 +1,84 @@
+    body {
+        background-color: #ffffff;
+        font-family: 'Gotham-Black', serif;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: "Gotham-Black";
+        src: url(font/Gotham-Font/Gotham-Black.otf);
+    }
+
+    /*.pictures_globe {
+        margin-left: 2%;
+    }*/
+
+    .pictures {
+        /*width: 600px;
+        height: 600px;
+        width: 100%;*/
+        background-repeat: no-repeat;
+    }
+
+    .intro_text {
+        font-size: 25px;
+    }
+
+    .eastertreats {
+        background-image: url("../ASSETS/img/shoes.jpg");
+    }
+
+    .text {
+        color: #ffffff;
+    }
+
+    .blue_room {
+        background-image: url("../ASSETS/img/lemecenbleu.jpg");
+    }
+
+    .musclor {
+        background-image: url("../ASSETS/img/SK_Savour_header.jpg");
+    }
+
+    .box {
+        background-image: url("../ASSETS/img/vaseline.jpg");
+    }
+
+    .citroen {
+        background-image: url("../ASSETS/img/ec4.jpg");
+    }
+
+    .mexican {
+        background-image: url("../ASSETS/img/first-page-1920x1080.jpg");
+    }
+
+    .cook {
+        background-image: url("../ASSETS/img/chrissi-zimi-1680x1080.jpg");
+    }
+
+    .pool {
+        background-image: url("../ASSETS/img/cavotagoo-website-redesign-1680x1080.jpg");
+    }
+
+    .beach {
+        background-image: url("../ASSETS/img/PRIN_header02-1920x1080.jpg");
+    }
+
+    .load {
+        border: 2px solid #7fd8d5;
+    }
+
+    .load_text {
+        color: #006276;
+    }
+
+    .services {
+        background-color: #0b6f7a;
+    }
+
+    .awards {
+        background-color: black;
+    }
