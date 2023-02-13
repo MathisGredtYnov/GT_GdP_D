@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Header.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -13,7 +14,7 @@
     <div class="header">
         <div class="logo">
             <a href="/" class="logo">
-            <img src="../ASSETS/logo/logo.png" alt="logo">
+                <img src="../ASSETS/logo/logo.png" alt="logo">
             </a>
         </div>
         <div class="lien">
@@ -30,7 +31,7 @@
                     <li><a href="/Services">Services</a></li>
                     <li2><a>.</a></li2>
                     <li><a href="/Culture">Culture</a></li>
-                    <a href="../HTML/HeaderV2.html"> <img src="../ASSETS/svg/menu.svg" alt="burger"/></a>
+                    <a href="../HTML/HeaderV2.html"> <img src="../ASSETS/svg/menu.svg" alt="burger" /></a>
                 </ul>
             </nav>
         </div>
@@ -50,20 +51,39 @@
         </div>
         <div id="first_container">
             <div id="number_bar">
-                <p class="number" id="nb1">01</p>
-                <p class="number" id="nb2">02</p>
-                <p class="number" id="nb3">03</p>
-                <p class="number" id="nb4">04</p>
-                <p class="number" id="nb5">05</p>
+                <span class="number" id="nb1">01</span>
+                <span class="number" id="nb2">02</span>
+                <span class="number" id="nb3">03</span>
+                <span class="number" id="nb4">04</span>
+                <span class="number" id="nb5">05</span>
             </div>
             <div id="to_change">
-                Creating a 360 campaign to enhance brand relevance and drive sales / Intersport</div>
-            <div></div>
+                Approaching a classic with a fresh eye / Citroën</div>
+            <div id="to_change2">CREATIVITY, IDEAS AND DESIGN</div>
+        </div>
+        <div id="under_container">
+            <span class="under_text_container">
+                <span class="under_text">Communicating in real time with a global audience for a Marina Abramovic
+                    Institute exhibition / Marina
+                    Abramovic Institute (MAI)
+                </span>
+                <div class="link">STRATEGY & PLANNING</div>
+            </span>
+            <span class="under_text_container">
+                <span class="under_text">A digital media strategy to elevate and differentiate / Mastiqua
+                </span>
+                <div class="link">CONTENT CREATION & PRODUCTION</div>
+            </span>
+            <span class="under_text_container">
+                <span class="under_text">Designing a solid growth social media strategy / Grecotel Hotels & Resorts
+                </span>
+                <div class="link">DIGITAL, PLATFORMS & COMMUNITY MANAGEMENT</div>
+            </span>
         </div>
     </div>
     <div id="main2">
         <div id="second_container">
-            <div class="texte1">WE ARE AN IDEAS COMPANY WITH TECHNOLOGY 
+            <div class="texte1">WE ARE AN IDEAS COMPANY WITH TECHNOLOGY
                 AND DATA AT THE HEART OF EVERYTHING WE DO; ANALLOY OF STRATEGY.
             </div>
         </div>
@@ -84,12 +104,13 @@
         </div>
 
         <div class="the">
-            The combination of our different backgrounds and disciplines 
-            is among our key assets as we all share a valuable range of 
+            The combination of our different backgrounds and disciplines
+            is among our key assets as we all share a valuable range of
             perspectives, which help push our thinking further.
         </div>
     </div>
 </body>
+
 </html>
 
 <style>
@@ -102,11 +123,16 @@
         padding-right: 0%;
         width: 100vw;
         overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
     }
 
     @font-face {
         font-family: "Gotham-Black";
-        src: url(../ASSETS/Font/Gotham-Black.otf);
+        src: url(../ASSETS/Font/Gotham-Bold.otf);
     }
 
     @font-face {
@@ -117,7 +143,7 @@
     #main {
         height: 200vh;
         background-color: aliceblue;
-        padding-top: 12vh;
+        padding-top: 15vh;
         padding-left: 7vw;
         margin-left: 7vw;
         display: flex;
@@ -129,57 +155,104 @@
         height: 10vh;
         display: flex;
         align-items: center;
-        padding-left: 10%;
+        padding-left: 5%;
     }
 
     h1 {
-        font-size: 4.5em;
+        font-size: 4em;
     }
 
     #title {
+        font-family: "Gotham-Black-Light";
         font-size: 1em;
         margin-left: 3%;
     }
 
     #first_container {
         width: 100%;
-        height: 95%;
-        margin-top: 7vh;
-        padding-top: 30em;
+        height: 50%;
+        margin-top: 5vh;
+        padding-top: 20em;
         padding-left: 7vw;
-        background-image: url(../ASSETS/img/image1.jpg);
+        background-image: url(../ASSETS/img/image4.jpg);
+        background-color: rgba(0, 0, 0, 0.2);
         background-repeat: no-repeat;
-        background-size: 100%;
-        display: flex;   
+        background-attachment: center;
+        background-size: cover;
+        display: flex;
         flex-direction: column;
         overflow: hidden;
     }
-    
-    #number_bar{
+
+    #under_container {
+        width: 90%;
+        margin-top: 7vh;
+        padding-left: 7vw;
+
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .under_text_container {
+        width: 28%;
+    }
+
+    .under_text {
+        font-size: 1.7em;
+    }
+
+    .under_text:hover {
+        cursor: pointer;
+    }
+
+    .link {
+        margin-top: 7%;
+        font-size: 0.7em;
+        color: black;
+        font-family: "Gotham-Black-Light";
+    }
+
+    .link:hover {
+        cursor: pointer;
+    }
+
+    #number_bar {
         width: 10vw;
         display: flex;
         justify-content: space-between;
     }
 
-    .number{
+    .number {
         border: none;
         font-size: large;
-        color: #afafaf;
+        color: #c9c9c9;
     }
-    .number:hover{
+
+    .number:hover {
         cursor: pointer;
         color: #ffffff;
         transition: 1s;
     }
 
-    #to_change{
-        width: 50%;
+    #to_change {
+        margin-top: 3vh;
+        width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 2em;
-        color: white;
-        font-weight: 800;
+        color: rgb(255, 255, 255);
+    }
+
+    #to_change2 {
+        margin-top: 3vh;
+        width: 40%;
+        display: flex;
+        font-size: 0.8em;
+
+        font-family: "Gotham-Black-Light";
+        color: rgb(255, 255, 255);
     }
 
     #main2 {
@@ -232,7 +305,7 @@
         padding-top: 8vh;
     }
 
-    .We{
+    .We {
         margin-left: 18vh;
         font-size: 4vh;
         height: 20%;
@@ -244,7 +317,7 @@
         font-weight: 900;
     }
 
-    .culture{
+    .culture {
         color: white;
         font-weight: 800;
         font-size: 7vh;
@@ -252,7 +325,7 @@
         margin-left: 18vw;
     }
 
-    .the{
+    .the {
         margin-top: 12vh;
         margin-left: 35vw;
         height: 20%;
@@ -263,7 +336,7 @@
         font-family: 'Gotham-Black-Light';
     }
 
-    .textTop{
+    .textTop {
         margin-top: 22%;
         margin-left: 50vw;
         height: 30%;
@@ -272,29 +345,49 @@
         font-size: 2.7em;
         color: white;
         font-family: 'Gotham-Black-Light';
-        padding-bottom: 20vh; 
+        padding-bottom: 20vh;
         line-height: 1.5em;
     }
 
-    .titre{
+    .titre {
         margin-top: 15%
     }
-
-
-
 </style>
 
 <script>
     $(document).ready(function () {
         $("#nb1").click(function () {
-            $("#first_container").html("Creating a 360 campaign to enhance brand relevance and drive sales / Intersport");
-            $("#first_container").style.backgroundImage="url(..ASSETS/img/image1.jpg)"        
+            $("#to_change").html("Creating a 360 campaign to enhance brand relevance and drive sales / Intersport");
+            $("#to_change2").html("Retail");
+            $("#first_container").style.backgroundImage = "url(..ASSETS/img/image2.jpg)";
         });
     });
     $(document).ready(function () {
         $("#nb2").click(function () {
-            $("#first_container").html("Retail Push the button! / Go Prosvasis/Softone");
-            $("#first_container").style.backgroundImage="url(..ASSETS/img/image2.jpg)"        
+            $("#to_change").html("Push the button! / Go Prosvasis/Softone");
+            $("#to_change2").html("CREATIVITY, IDEAS ANS DESIGNS");
+            $("#first_container").backgroundImage = "url(..ASSETS/img/image2.jpg)";
+        });
+    });
+    $(document).ready(function () {
+        $("#nb3").click(function () {
+            $("#to_change").html("Island Of Truth: an impressive TVC encapsulating a brand's new position / Skinos Mastiha Spirit");
+            $("#to_change2").html("CONTENT CREATION & PRODUCTION");
+            $("#first_container").backgroundImage = "url(..ASSETS/img/image2.jpg)";
+        });
+    });
+    $(document).ready(function () {
+        $("#nb4").click(function () {
+            $("#to_change").html("Designing and developing visual content for organic and paid placements / VO5");
+            $("#to_change2").html("CONTENT CREATION & PRODUCTION");
+            $("#first_container").backgroundImage = "url(..ASSETS/img/image2.jpg)";
+        });
+    });
+    $(document).ready(function () {
+        $("#nb5").click(function () {
+            $("#to_change").html("Approaching a classic with a fresh eye / Citroën");
+            $("#to_change2").html("CREATIVITY, IDEAS ANS DESIGNS");
+            $("#first_container").backgroundImage = "url(..ASSETS/img/image2.jpg)";
         });
     });
 </script>
