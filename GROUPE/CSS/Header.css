@@ -9,14 +9,11 @@
 }
 
 /* début header*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "GothamBlack";
-}
+
 
 .header {
+    box-sizing: border-box;
+    font-family: "GothamBlack";
     background-color: transparent;
     color: #ffffff;
     padding: 10px;
