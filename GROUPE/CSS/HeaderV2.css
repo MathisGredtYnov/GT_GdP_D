@@ -1,16 +1,11 @@
 @font-face {
     font-family: 'GothamBlack';
-    src: url('../ASSETS/Gotham-Font/Gotham-Black.otf');
+    src: url('/GROUPE/ASSETS/Font/Gotham-Black.otf');
 }
 
 @font-face {
     font-family: 'GothamMedium';
-    src: url('../ASSETS/Gotham-Font/GothamMedium.ttf');
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('../ASSETS/Gotham-Font/Gotham-Black.otf');
+    src: url('/GROUPE/ASSETS/Gotham-Font/GothamMedium.ttf');
 }
 
 *{
@@ -82,18 +77,50 @@ body {
 
 .text {
     width: 400px;
-    font-size: 13px;
-    font-family: "gothamMedium";
+    font-size: large;
+    font-family: "GothamMedium";
+    text-align: justify;
 }
 
 .titre {
     font-size: 3em;
-    font-weight: bold;
+    font-weight: 800;
     color: #fff;
+    font-family: "GothamBlack";
 }
 
 .titre:hover {
     color: #000;
     -webkit-text-stroke: 1px #fff;
     cursor: pointer;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;
+    color: #237472;
+}
+
+.infoitem {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    text-align: right;
+    font-family: none;
+}
+
+.infoitem:hover {
+    color: #3f6c6a;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1180px) {
+    
+    .text {
+        display: none;
+    }
+
+
 }

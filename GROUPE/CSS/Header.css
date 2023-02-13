@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Gotham';
-    src: url('../ASSETS/Gotham-Font/GothamMedium.ttf');
+    font-family: 'GothamBlack';
+    src: url('/GROUPE/ASSETS/Font/Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('/GROUPE/ASSETS/Gotham-Font/GothamMedium.ttf');
 }
 
 /* début header*/
@@ -8,8 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Gotham";
-    
+    font-family: "GothamBlack";
 }
 
 .header {
