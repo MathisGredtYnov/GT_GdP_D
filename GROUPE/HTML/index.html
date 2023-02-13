@@ -5,11 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Header.css">
     <title>Document</title>
 </head>
 
 <body>
-    <svg class="test" viewbox="0 0 10 2">
+    <div class="header">
+        <div class="logo">
+            <a href="/" class="logo">
+            <img src="../ASSETS/logo/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="lien">
+            <input class="menu_button" type="checkbox" id="menu_button">
+            <label for="menu_button">
+                <img src="../ASSETS/svg/close.svg" alt="close" class="close">
+            </label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="/HTML/HeaderV2.html">Work</a></li>
+                    <li2><a>.</a></li2>
+                    <li><a href="/We">We</a></li>
+                    <li2><a>.</a></li2>
+                    <li><a href="/Services">Services</a></li>
+                    <li2><a>.</a></li2>
+                    <li><a href="/Culture">Culture</a></li>
+                    <a href="../HTML/HeaderV2.html"> <img src="../ASSETS/svg/menu.svg" alt="burger"/></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <svg class="titre" viewbox="0 0 10 2">
         <text x="5" y="1" class="ui" text-anchor="middle" font-size="0.77" fill="none" stroke-width=".005"
             stroke="#fff">we drive change</text>
     </svg>
@@ -75,6 +101,7 @@
         font-family: 'Gotham-Black';
         padding-right: 0%;
         width: 100vw;
+        overflow-x: hidden;
     }
 
     @font-face {
@@ -172,6 +199,7 @@
         font-size: 12vh;
         padding-top: 5%;
         padding-left: 8%;
+        padding-bottom: 10%;
     }
 
     #container_footer {
@@ -231,7 +259,7 @@
     }
 
     .textTop{
-        margin-top: 8vh;
+        margin-top: 22%;
         margin-left: 50vw;
         height: 30%;
         width: 40%;
@@ -241,6 +269,10 @@
         font-family: 'Gotham-Black-Light';
         padding-bottom: 20vh; 
         line-height: 1.5em;
+    }
+
+    .titre{
+        margin-top: 15%
     }
 
 
