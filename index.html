@@ -10,24 +10,58 @@
 
 <body>
     <svg class="test" viewbox="0 0 10 2">
-        <text x="5" y="1" class="ui" text-anchor="middle" font-size="0.77" fill="none" stroke-width=".005" stroke="#fff">we
+        <text x="5" y="1" class="ui" text-anchor="middle" font-size="0.77" fill="none" stroke-width=".005"
+            stroke="#fff">we
             drive change</text>
     </svg>
     <div id="main">
 
         <div id="container_header">
             <h1>WORK</h1>
-            <p>VIEW ALL</p>
+            <p id="title">VIEW ALL</p>
         </div>
         <div id="first_container">
-
+            <div id="number_bar">
+                <p class="number">01</p>
+                <p class="number">02</p>
+                <p class="number">03</p>
+                <p class="number">04</p>
+                <p class="number">05</p>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="main2">
+        <div id="second_container">
+            <div class="texte1">WE ARE AN IDEAS COMPANY WITH TECHNOLOGY 
+                AND DATA AT THE HEART OF EVERYTHING WE DO; ANALLOY OF STRATEGY.
+            </div>
+        </div>
+        <div id="container_footer">
+        </div>
+        <div class="texte2">
+            Services
+        </div>
+    </div>
+    <div id="main3">
+        <div class="We">We work to Drive Change</div>
+        <div class="We">We offer Impactful Solutions</div>
+        <div class="We">We are experts in 6 distinct industries</div>
+    </div>
+    <div id="Bottom">
+        <div class="culture">
+            Culture
         </div>
 
+        <div class="the">
+            The combination of our different backgrounds and disciplines 
+            is among our key assets as we all share a valuable range of 
+            perspectives, which help push our thinking further.
+        </div>
     </div>
 </body>
-
 </html>
-
 
 <style>
     body {
@@ -36,6 +70,8 @@
         background-attachment: fixed;
         background-size: cover;
         font-family: 'Gotham-Black';
+        padding-right: 0%;
+        width: 100vw;
     }
 
     @font-face {
@@ -43,8 +79,13 @@
         src: url(font/Gotham-Font/Gotham-Black.otf);
     }
 
+    @font-face {
+        font-family: "Gotham-Black-Light";
+        src: url(font/Gotham-Font/Gotham-Thin.otf);
+    }
+
     #main {
-        height: 300vh;
+        height: 150vh;
         background-color: aliceblue;
         padding-top: 15vh;
         padding-left: 7vw;
@@ -65,15 +106,121 @@
         font-size: 60px;
     }
 
-    p {
+    #title {
         margin-left: 3%;
     }
 
     #first_container {
         width: 100%;
-        height: 80vh;
+        height: 95vh;
         margin-top: 7vh;
-        background-color: #434343;
+        padding-top: 50%;
+        padding-left: 7vw;
+        background-image: url(img/classe.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;   
+    }
+
+    #number_bar{
+        width: 15%;
+        display: flex;
+        
+        justify-content: space-between;
+    }
+
+    .number{
+        border: none;
+        font-size: large;
+        color: #afafaf;
+    }
+    .number:hover{
+        cursor: pointer;
+        color: #ffffff;
+        transition: 1s;
+        font-size: x-large;
+    }
+
+    #main2 {
+        height: 130vh;
+        background-color: #004E5B;
+        padding-top: 0vh;
+        padding-left: 7vw;
+        margin-left: 7vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #second_container {
+        width: 100%;
+        height: 120vh;
+        background-color: black;
         display: flex;
     }
+
+    .texte1 {
+        color: white;
+        font-weight: 800;
+        font-size: 12vh;
+        padding-top: 5%;
+        padding-left: 8%;
+    }
+
+    #container_footer {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+    }
+
+    .texte2 {
+        color: white;
+        font-weight: 800;
+        font-size: 7vh;
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+
+    #main3 {
+        height: 40vh;
+        background-color: #004E5B;
+        padding-left: 20vw;
+        margin-left: 7vw;
+        display: flex;
+        padding-top: 8vh;
+    }
+
+    .We{
+        margin-left: 18vh;
+        font-size: 4vh;
+        height: 20vh;
+        width: 10vw;
+        color: white;
+        background-color: #004E5B;
+        border-top: 1px solid #7FD8D5;
+        font-family: 'Gotham-Black-Light';
+        font-weight: 900;
+    }
+
+    .culture{
+        color: white;
+        font-weight: 800;
+        font-size: 7vh;
+        margin-top: 19vh;
+        margin-left: 18vw;
+    }
+
+    .the{
+        margin-top: 12vh;
+        margin-left: 35vw;
+        height: 20vh;
+        width: 54vw;
+        font-weight: 900;
+        font-size: 5vh;
+        color: white;
+        font-family: 'Gotham-Black-Light';
+    }
+
+
 </style>
