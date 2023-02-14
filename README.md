@@ -4,7 +4,7 @@ Cette gestion de projet a pour but de refaire un maximum de pages d'un site web 
 Pour ce projet nous étions un groupe de 7 et nous avons suivi les methode agile pour la gestion de ce projet
 
 
-[Lien du site modéle :](https://interweaveagency.com/)
+[Lien du site modéle ](https://interweaveagency.com/)
 
 ## **Pour ce projet nous devions rendre :**
 
@@ -18,7 +18,7 @@ Pour ce projet nous étions un groupe de 7 et nous avons suivi les methode agile
 -Planning Rétrospectif  
 -Doc technique du site  
 
-[Lien du trello :](https://trello.com/b/bZQ1Wq13/planning-pr%C3%A9visionel-gestionprojet) contenant les planning,User stories,Répartition des taches  
+[Lien du trello ](https://trello.com/b/bZQ1Wq13/planning-pr%C3%A9visionel-gestionprojet) contenant les planning,User stories,Répartition des taches  
 
 ### **Individuels :**
 
@@ -52,7 +52,7 @@ Le Projet GestionProjet est trié dans plusieurs dossiers :
   -Le dossier [img](GROUPE/ASSETS/img) contient toute les images nécessaire pour le site  
   -Le dossier [logo](GROUPE/ASSETS/logo) contient le logo du site  
   -Le dossier [svg](GROUPE/ASSETS/svg) contient le menu burger et la croix pour fermer   
-  -Le fichier[Doctechnique](GROUPE/documentation%20technique%20gestion%20de%20projet.pdf)   
+  -Le fichier[Doc technique](GROUPE/documentation%20technique%20gestion%20de%20projet.pdf)   
   
   -Le dossier [CSS](GROUPE/CSS) contient :  
 
