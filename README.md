@@ -16,7 +16,9 @@ Pour ce projet nous étions un groupe de 7 et nous avons suivi les methode agile
 -Répartitions des taches  
 -Planning prévisionnel  
 -Planning Rétrospectif  
--Doc technique du site
+-Doc technique du site  
+
+[Lien du trello :](https://trello.com/b/bZQ1Wq13/planning-pr%C3%A9visionel-gestionprojet) contenant les planning,User stories,Répartition des taches  
 
 ### **Individuels :**
 
