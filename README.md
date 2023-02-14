@@ -56,7 +56,7 @@ Le Projet GestionProjet est trié dans plusieurs dossiers :
   -Le dossier [CSS](GROUPE/CSS) contient :  
 
    -Le fichier [Footer.css](GROUPE/CSS/Footer.css) contient le CSS du footer transparent  
-   -Le fichier [Footer2.css](GROUPE/CSS/Footer2.css) contient le CSS du footer noir 
+   -Le fichier [Footer2.css](GROUPE/CSS/Footer2.css) contient le CSS du footer noir   
    -Le fichier [Header.css](GROUPE/CSS/Header.css) contient le CSS du header de base du site  
    -Le fichier [HeaderV2.css](GROUPE/CSS/HeaderV2.css) contient le CSS du header du burger  
    -Le fichier [clients.css](GROUPE/CSS/clients.css) contient le CSS de la page clients  
