@@ -21,6 +21,10 @@
     font-family: "GothamBlack";
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .header {
     background-color: transparent;
     color: #ffffff;

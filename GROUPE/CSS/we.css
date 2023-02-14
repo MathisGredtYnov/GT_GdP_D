@@ -156,8 +156,12 @@ a:hover {
     font-size: 7em;
     color: #fff;
     margin-top: 35vh;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #000;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .text{

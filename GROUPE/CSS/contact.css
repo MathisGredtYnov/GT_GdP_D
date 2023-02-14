@@ -21,6 +21,10 @@
     font-family: "GothamBlack";
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: #A8396C;
 }
