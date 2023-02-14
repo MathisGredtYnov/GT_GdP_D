@@ -1,11 +1,16 @@
 @font-face {
     font-family: 'GothamBlack';
-    src: url('/GROUPE/ASSETS/Font/Gotham-Black.otf');
+    src: url('../ASSETS/Font/GothamMedium.ttf')
 }
 
 @font-face {
     font-family: 'GothamMedium';
-    src: url('/GROUPE/ASSETS/Gotham-Font/GothamMedium.ttf');
+    src: url('..ASSETS/Font/GothamMedium');
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url(../ASSETS/Font/GothamBook.ttf);
 }
 
 *{
@@ -60,14 +65,15 @@ body {
 }
 
 .menuv2 {
-    border-top: 1px solid #fff;
-    margin-top: 30px;
+    border-top: 1px solid #73D8D5;
+    margin-top: 40px;
     color: #fff;
     display: flex;
     height: 10%;
     width: 80%;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 
 }
 
@@ -78,7 +84,7 @@ body {
 .text {
     width: 400px;
     font-size: large;
-    font-family: "GothamMedium";
+    font-family: "GothamBlack";
     text-align: justify;
 }
 
@@ -100,13 +106,16 @@ body {
     flex-direction: column;
     min-height: 50%;
     color: #237472;
+    font-family: "GothamBlack";
 }
+
 
 .infoitem {
     font-size: 1.5em;
     padding-bottom: 20px;
     text-align: right;
-    font-family: none;
+    font-family: "GothamBlack";
+    color: #73D8D5;
 }
 
 .infoitem:hover {
@@ -116,7 +125,11 @@ body {
 
 .clients{
     text-decoration: none;
-    color: #237472;
+    color: #73D8D5;
+}
+
+.clients:hover{
+    color: #3f6c6a;
 }
 
 .work{
