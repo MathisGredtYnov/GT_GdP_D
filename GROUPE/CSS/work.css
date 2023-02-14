@@ -9,11 +9,14 @@
     }
     
     
+    * {
+        font-family: "GothamBlack";
+    }
+
     body {
         margin: 0;
         padding: 0;
         background-color: #ffffff;
-        font-family: "GothamBlack";
     }
 
     #container_pic {
@@ -88,6 +91,10 @@
         margin-left: 4.5%;
         color: white;
         text-align: center;
+    }
+
+    .subtext {
+        font-size: 45px;
     }
 
     .awards {
@@ -179,6 +186,7 @@
     .burger {
         cursor: pointer;
     }
+
     /* Header End */
     
     @media screen and (max-width: 991px) {
