@@ -63,7 +63,9 @@ Le Projet GestionProjet est trié dans plusieurs dossiers :
    -Le fichier [clients.css](GROUPE/CSS/clients.css) contient le CSS de la page clients  
    -Le fichier [index.css](GROUPE/CSS/index.css) contient le CSS de la page index  
    -Le fichier [work.css](GROUPE/CSS/work.css) contient le CSS de la page work  
-   -Le fichier [contact.css](GROUPE/CSS/contact.css) contient le CSS de la page contact
+   -Le fichier [contact.css](GROUPE/CSS/contact.css) contient le CSS de la page contact  
+   -Le fichier [we.css](GROUPE/CSS/we.css) contient le CSS de la page we  
+
 
    -Le dossier [HTML](GROUPE/HTML/) contient :  
 
@@ -73,7 +75,8 @@ Le Projet GestionProjet est trié dans plusieurs dossiers :
    -Le fichier [clients.html](GROUPE/HTML/clients.html) contient le HTML de la page clients  
    -Le fichier [index.html](GROUPE/HTML/index.html) contient le HTML de la page index  
    -Le fichier [work.html](GROUPE/HTML/work.html) contient le HTML de la page work  
-   -Le fichier [contact.html](GROUPE/HTML/contact.html) contient le HTML de la page contact.html
+   -Le fichier [contact.html](GROUPE/HTML/contact.html) contient le HTML de la page contact.html  
+   -Le fichier [we.html](GROUPE/HTML/we.html) contient le HTML de la page we.html  
 
   -Le dossier [Individuelle](Individuelle) contient les document nominatifs détaillants le travail individuel effectué.
 
