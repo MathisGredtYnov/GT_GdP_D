@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 
 #main {
     height: 200vh;
-    background-color: aliceblue;
+    background-color: white;
     padding-top: 15vh;
     padding-left: 7vw;
     margin-left: 7vw;
@@ -42,14 +42,16 @@ body::-webkit-scrollbar {
     padding-left: 5%;
 }
 
-h1 {
+.h1_a {
     font-size: 4em;
+    color: black;
 }
 
 #title {
     font-family: "Gotham-Black-Light";
     font-size: 1em;
     margin-left: 3%;
+    color: black;
 }
 
 #first_container {
@@ -68,6 +70,7 @@ h1 {
     overflow: hidden;
 }
 
+
 #under_container {
     width: 90%;
     margin-top: 7vh;
@@ -84,6 +87,7 @@ h1 {
 
 .under_text {
     font-size: 1.7em;
+    color: black;
 }
 
 .under_text:hover {
