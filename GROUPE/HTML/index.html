@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Header.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../CSS/index.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="header">
         <div class="logo">
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
                 <img src="../ASSETS/logo/logo.png" alt="logo">
             </a>
         </div>
@@ -24,7 +25,7 @@
             </label>
             <nav class="menu">
                 <ul>
-                    <li><a href="/HTML/HeaderV2.html">Work</a></li>
+                    <li><a href="work.html">Work</a></li>
                     <li2><a>.</a></li2>
                     <li><a href="/We">We</a></li>
                     <li2><a>.</a></li2>
@@ -112,247 +113,6 @@
 </body>
 
 </html>
-
-<style>
-    body {
-        background-image: url("../ASSETS/img/background.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-family: 'Gotham-Black';
-        padding-right: 0%;
-        width: 100vw;
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-
-    body::-webkit-scrollbar {
-        display: none;
-    }
-
-    @font-face {
-        font-family: "Gotham-Black";
-        src: url(../ASSETS/Font/Gotham-Black.otf);
-    }
-
-    @font-face {
-        font-family: "Gotham-Black-Light";
-        src: url(../ASSETS/Font/GothamBook.ttf);
-    }
-
-    #main {
-        height: 200vh;
-        background-color: aliceblue;
-        padding-top: 15vh;
-        padding-left: 7vw;
-        margin-left: 7vw;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container_header {
-        width: 100%;
-        height: 10vh;
-        display: flex;
-        align-items: center;
-        padding-left: 5%;
-    }
-
-    h1 {
-        font-size: 4em;
-    }
-
-    #title {
-        font-family: "Gotham-Black-Light";
-        font-size: 1em;
-        margin-left: 3%;
-    }
-
-    #first_container {
-        width: 100%;
-        height: 50%;
-        margin-top: 5vh;
-        padding-top: 20em;
-        padding-left: 7vw;
-        background-image: url(../ASSETS/img/image4.jpg);
-        background-color: rgba(0, 0, 0, 0.2);
-        background-repeat: no-repeat;
-        background-attachment: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-    }
-
-    #under_container {
-        width: 90%;
-        margin-top: 7vh;
-        padding-left: 7vw;
-
-        display: flex;
-        justify-content: space-between;
-        overflow: hidden;
-    }
-
-    .under_text_container {
-        width: 28%;
-    }
-
-    .under_text {
-        font-size: 1.7em;
-    }
-
-    .under_text:hover {
-        cursor: pointer;
-    }
-
-    .link {
-        margin-top: 7%;
-        font-size: 0.7em;
-        color: black;
-        font-family: "Gotham-Black-Light";
-    }
-
-    .link:hover {
-        cursor: pointer;
-    }
-
-    #number_bar {
-        width: 10vw;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .number {
-        border: none;
-        font-size: large;
-        color: #c9c9c9;
-    }
-
-    .number:hover {
-        cursor: pointer;
-        color: #ffffff;
-        transition: 1s;
-    }
-
-    #to_change {
-        margin-top: 3vh;
-        width: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2em;
-        color: rgb(255, 255, 255);
-    }
-
-    #to_change2 {
-        margin-top: 3vh;
-        width: 40%;
-        display: flex;
-        font-size: 0.8em;
-
-        font-family: "Gotham-Black-Light";
-        color: rgb(255, 255, 255);
-    }
-
-    #main2 {
-        height: 130%;
-        background-color: #004E5B;
-        padding-left: 7vw;
-        margin-left: 7vw;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #second_container {
-        width: 100%;
-        height: 120%;
-        background-color: black;
-        display: flex;
-    }
-
-    .texte1 {
-        color: white;
-        font-weight: 800;
-        font-size: 12vh;
-        padding-top: 5%;
-        padding-left: 8%;
-        padding-bottom: 10%;
-    }
-
-    #container_footer {
-        width: 100%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        padding-left: 10%;
-    }
-
-    .texte2 {
-        color: white;
-        font-weight: 800;
-        font-size: 7vh;
-        margin-top: 5vh;
-        margin-left: 5vw;
-    }
-
-    #main3 {
-        height: 40vh;
-        background-color: #004E5B;
-        padding-left: 20vw;
-        margin-left: 7vw;
-        display: flex;
-        padding-top: 8vh;
-    }
-
-    .We {
-        margin-left: 18vh;
-        font-size: 4vh;
-        height: 20%;
-        width: 10%;
-        color: white;
-        background-color: #004E5B;
-        border-top: 1px solid #7FD8D5;
-        font-family: 'Gotham-Black-Light';
-        font-weight: 900;
-    }
-
-    .culture {
-        color: white;
-        font-weight: 800;
-        font-size: 7vh;
-        margin-top: 19vh;
-        margin-left: 18vw;
-    }
-
-    .the {
-        margin-top: 12vh;
-        margin-left: 35vw;
-        height: 20%;
-        width: 54%;
-        font-weight: 500;
-        font-size: 5vh;
-        color: white;
-        font-family: 'Gotham-Black-Light';
-    }
-
-    .textTop {
-        margin-top: 22%;
-        margin-left: 50vw;
-        height: 30%;
-        width: 40%;
-        font-weight: 700;
-        font-size: 2.7em;
-        color: white;
-        font-family: 'Gotham-Black-Light';
-        padding-bottom: 20vh;
-        line-height: 1.5em;
-    }
-
-    .titre {
-        margin-top: 15%
-    }
-</style>
 
 <script>
     $(document).ready(function () {

@@ -153,7 +153,7 @@ a:hover {
 }
 
 .text_client{
-    font-size: 9em;
+    font-size: 7em;
     color: #fff;
     margin-top: 35vh;
     -webkit-text-stroke: 1px;
@@ -161,15 +161,16 @@ a:hover {
 }
 
 .text{
-    font-size: 3em;
+    font-size: 2em;
     color: #000000;
     margin-top: 25vh;
     font-family: 'Gotham-Black-Light';
     width: 39vw;
-    margin-left: 40vh;
-    line-height: 1.3;
+    margin-left: 35vh;
+    line-height: 1.7;
 }
 
 .clients{
-    margin-left: 10vh;
+    padding-top: 20vh;
+    margin-left: 20vh;
 }
