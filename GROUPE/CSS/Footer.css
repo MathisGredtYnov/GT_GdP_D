@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('/GROUPE/ASSETS/Font/Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('/GROUPE/ASSETS/Gotham-Font/GothamMedium.ttf');
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('/GROUPE/ASSETS/Gotham-Font/GothamBook.ttf');
+}
+
+/* début header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+
+.middle {
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-top: 1px solid white ;
+    
+}
+
+#top {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+h1 {
+    font-family: 'GothamMedium';
+    font-size: 0.7em;
+}
+
+h2 {
+    font-family: 'GothamMedium';
+    font-size: 0.5em;
+}
+
+h3 {
+    font-family: 'GothamMedium';
+    font-size: 0.3em;
+    
+}
+
+h4 {
+    font-family: 'GothamMedium';
+    font-size: 0.1em;
+}
+
+p {
+    font-family: 'GothamMedium';
+    font-size: 0.5em;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-top: 1px solid white ;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+#maxwidth {
+    max-width: 45%;
+}
+
+.container3 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-top: 1px solid white;
+    max-width: 60%;
+}
+
+
+.container4 {
+    width: 100%;
+    height: auto;
+}
+
+#nopadding {
+    padding: 0;
+}
+

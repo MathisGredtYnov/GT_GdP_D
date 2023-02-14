@@ -5,15 +5,23 @@
 
 @font-face {
     font-family: 'GothamMedium';
-    src: url('../ASSETS/Gotham-Font/GothamMedium.ttf');
+    src: url('../ASSETS/Font/Gotham-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Gotham-Black-Light";
+    src: url(../ASSETS/Font/GothamBook.ttf);
 }
 
 /* début header*/
-
-
-.header {
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "GothamBlack";
+}
+
+.header {
     background-color: transparent;
     color: #ffffff;
     padding: 10px;
@@ -66,12 +74,12 @@ li {
     padding: 0px 25px;
     display: inline;
     font-size: 1em;
-    color: #ffffff;
+    color: #000;
     font-weight: 400;
     text-transform: uppercase;
 }
 a {
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -135,4 +143,33 @@ a:hover {
         display: block;
     }
     /* Header End */
+}
+
+.container1{
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    display: flex;
+}
+
+.text_client{
+    font-size: 9em;
+    color: #fff;
+    margin-top: 35vh;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+.text{
+    font-size: 3em;
+    color: #000000;
+    margin-top: 25vh;
+    font-family: 'Gotham-Black-Light';
+    width: 39vw;
+    margin-left: 40vh;
+    line-height: 1.3;
+}
+
+.clients{
+    margin-left: 10vh;
 }
