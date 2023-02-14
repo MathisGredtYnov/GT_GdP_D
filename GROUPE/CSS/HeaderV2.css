@@ -114,6 +114,15 @@ body {
     cursor: pointer;
 }
 
+.clients{
+    text-decoration: none;
+    color: #237472;
+}
+
+.work{
+    text-decoration: none;
+}
+
 
 
 @media screen and (max-width: 1180px) {
