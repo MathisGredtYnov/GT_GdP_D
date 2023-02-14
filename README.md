@@ -52,7 +52,7 @@ Le Projet GestionProjet est trié dans plusieurs dossiers :
   -Le dossier [img](GROUPE/ASSETS/img) contient toute les images nécessaire pour le site  
   -Le dossier [logo](GROUPE/ASSETS/logo) contient le logo du site  
   -Le dossier [svg](GROUPE/ASSETS/svg) contient le menu burger et la croix pour fermer   
-  -Le fichier[Doc technique](GROUPE/documentation%20technique%20gestion%20de%20projet.pdf)   
+  -Le fichier[ Doc technique](GROUPE/documentation%20technique%20gestion%20de%20projet.pdf)   
   
   -Le dossier [CSS](GROUPE/CSS) contient :  
 
